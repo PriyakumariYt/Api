@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@500&family=Playfair+Display&family=Poppins:ital,wght@0,200;0,300;0,600;0,700;1,200;1,300;1,400;1,500&display=swap");
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+}
+html {
+  font-family: "Poppins", sans-serif;
+  font-size: 62%;
+  scroll-behavior: smooth;
+}
+body {
+  font-size: 1.6rem;
+}
+.container {
+  max-width: 144rem;
+  padding: 0 2rem;
+  margin: 0 auto;
+}
+.products {
+  padding: 2rem 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  gap: 2rem;
+}
+.product {
+
+  background: #e2d5d5;
+  padding: 0 0 2rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 2px solid red;
+  border-radius: 10px;
+}
+.product-content {
+  padding: 0 2rem;
+}
+.product img {
+  width: 100%;
+  object-fit: contain;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.product .product-title {
+  font-size: 2rem;
+}
+.product-description {
+  text-align: justify;
+}
+.product-title,
+.product-price-container,
+.product-description,
+.product-category {
+  padding: 0.5rem 0;
+}
+.product-price-container {
+  padding-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.add-to-cart {
+  background: rgb(13, 26, 46);
+  width: 4rem;
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.6rem 1.5rem;
+  font-weight: 400;
+  color: #fff;
+  border-radius: 1rem;
+}
+.add-to-cart i {
+  font-size: 2.5rem;
+}
