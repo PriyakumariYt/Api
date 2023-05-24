@@ -43,5 +43,5 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   }
   fetchProduct("https://api.escuelajs.co/api/v1/products");
-  // fetchProduct("https://fakestoreapi.com/products/category/jewelery");
+ 
 });
