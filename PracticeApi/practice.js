@@ -1,10 +1,4 @@
-//  getText("text.txt");
 
-//    async function getText(file) {
-//     let x = await fetch(file);
-//      let y = await x.text();
-//      document.getElementById("demo").innerHTML = y;
-//    }
 
 document.addEventListener("DOMContentLoaded", function () {
   let products = document.querySelector(".products");
